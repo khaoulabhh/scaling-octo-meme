@@ -26,22 +26,21 @@ header {
     left: 0;
     list-style: none;
     align-items: center;
+    justify-content: space-betweenp;
     width: 90%;
-    padding: 20px 100px;
     font-size: 23px;
     z-index: 100;
     background-image: url('../image/CC.jpg');
-    
-
+    padding: 20px 75px;
 }
 
 nav a {
    color: whitesmoke;
    margin-left: 100px;
    justify-content:90px ;
-   width: 350px;  
+   width: 400px;  
    position: relative;
-text-decoration: none;
+   text-decoration: none;
 }
 h1 {
     color: whitesmoke;
@@ -77,11 +76,94 @@ h4 {
     width: 50%;
     margin-left: 250px;
     border-radius: 50px;
-    border-image: url(pic1.png) 100 round;
     margin-top:100px ;
 }
 .middle-page2 {
-
-    background-color: red;
+   background-color: rgb(163, 208, 182);
     height: 1000px;
+
+}
+
+.paragraphe1 {
+    font-size: 40px;
+    text-align: justify; 
+    margin-left: 80px;
+    position: absolute;
+    width: 90%;
+    color: rgb(28, 67, 31);
+    
+}
+.titre1 {
+    font-size: 40px;
+    color: whitesmoke;
+    padding-top: 50px;
+    text-align: center;
+}
+.photo1 img{  
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    margin-top:180px ;
+
+}
+.photo1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(28, 67, 31);
+    margin-right: 50px;
+}
+
+.middle-page3 {
+    background-color: rgb(163, 208, 182);
+     height: 940px;
+ 
+ }
+ .titre2 {
+    font-size: 40px;
+    color: whitesmoke;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.paragraphe2 {
+    font-size: 40px;
+    text-align: justify; 
+    margin-left: 80px;
+    position: absolute;
+    width: 90%;
+    color: rgb(28, 67, 31);
+    
+}
+.photo2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(28, 67, 31);
+    margin-right: 50px;
+}
+.photo2 img{  
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    margin-top:150px ;
+}
+.ligne { 
+    background-color: #264F31;
+}
+.ligne1 {
+    background-color: #264F31;
+}
+
+.video {
+    height: 800px;
+    background-color: red;
+}
+.last-page {
+    background-color: #264F31;
+    background-size: cover;
+    height: 200px;
+   
 }
