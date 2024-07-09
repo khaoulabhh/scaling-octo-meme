@@ -41,6 +41,7 @@ nav a {
    width: 400px;  
    position: relative;
    text-decoration: none;
+  
 }
 h1 {
     color: whitesmoke;
@@ -62,6 +63,8 @@ h4 {
     justify-content: space-between;
     background-color: white;
     height: 500px  ;
+    background-image: url('../image/back.png'); 
+    
 }
 
 .texte {
@@ -76,12 +79,16 @@ h4 {
     width: 50%;
     margin-left: 250px;
     border-radius: 50px;
-    margin-top:100px ;
+    margin-top:90px ;
 }
 .middle-page2 {
-   background-color: rgb(163, 208, 182);
+   background-color:whitesmoke;
     height: 1000px;
+    background-image: url('../image/back2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 
+  
 }
 
 .paragraphe1 {
@@ -95,9 +102,11 @@ h4 {
 }
 .titre1 {
     font-size: 40px;
-    color: whitesmoke;
+    color: #11a639;
     padding-top: 50px;
     text-align: center;
+    text-decoration:underline;
+
 }
 .photo1 img{  
     width: 450px;
@@ -116,15 +125,22 @@ h4 {
 }
 
 .middle-page3 {
-    background-color: rgb(163, 208, 182);
-     height: 940px;
+    background-color: whitesmoke;
+    height: 940px;
+    background-image: url('../image/back2.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+
  
  }
  .titre2 {
     font-size: 40px;
-    color: whitesmoke;
+    color: #11a639;
     padding-top: 4px;
     text-align: center;
+    background-color: whitesmoke;
+    text-decoration:underline;
+
 }
 
 .paragraphe2 {
@@ -157,13 +173,64 @@ h4 {
     background-color: #264F31;
 }
 
+.tvideo {
+    font-size:65px;
+    color: #264F31;
+    text-align: center;
+    margin: 10px 0 0px 0;
+    text-decoration:underline;
+
+
+}
+.pvideo {
+    font-size: 45px;
+    color: #264F31;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
 .video {
-    height: 800px;
-    background-color: rgb(188, 228, 196);
+    background-color: rgb(222, 235, 220);
+    height: auto;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
-.last-page {
-    background-color: #264F31;
-    background-size: cover;
-    height: 200px;
-   
+.video video {
+    border-radius: 20px;
+    height: auto;
+    width: 60%;
+    justify-content: center;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+    .social-icons {
+    margin-top: 0px;
+  }
+  
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 5%;
+  }
+
+  .social-icons .fa-facebook {
+    background-color: #3b5998;
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+   .social-icons .fa-instagram {
+    background-color: #e4405f;
+    padding: 8px;
+    border-radius: 50%;
+  }
