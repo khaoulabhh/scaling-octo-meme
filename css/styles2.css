@@ -10,11 +10,8 @@
     height: 1000px;
         } 
 
-.logo {
-    font-size: 40px;
-    color: aliceblue;
-    text-decoration: none;
-    margin-bottom: auto;
+header .logo {
+  height: 90px;
 }
 body {
     margin: 0;
@@ -84,7 +81,7 @@ h4 {
 .middle-page2 {
    background-color:whitesmoke;
     height: 1000px;
-    background-image: url('../image/back2.png');
+    background-image: url('../image/cover.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -127,7 +124,7 @@ h4 {
 .middle-page3 {
     background-color: whitesmoke;
     height: 940px;
-    background-image: url('../image/back2.png');
+    background-image: url('../image/cover.png');
     background-repeat: no-repeat;
    background-size: cover;
 
@@ -189,14 +186,18 @@ h4 {
     margin: 10px 0 30px 0;
 }
 .video {
-    background-color: rgb(222, 235, 220);
-    height: auto;
+  /*  background-color: rgb(222, 235, 220);*/
+    height: 850px;
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
+    background-image: url('/image/back2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
 }
 .video video {
     border-radius: 20px;
