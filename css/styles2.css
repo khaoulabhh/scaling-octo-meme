@@ -13,12 +13,10 @@
 header .logo {
   height: 90px;
 }
-body {
-    margin: 0;
-}
+
 header {
     display: flex;
-    position: sticky;
+    position: sticky; 
     top: 0;
     left: 0;
     list-style: none;
@@ -26,7 +24,6 @@ header {
     justify-content: space-betweenp;
     width: 90%;
     font-size: 23px;
-    z-index: 100;
     background-image: url('../image/CC.jpg');
     padding: 20px 75px;
 }
@@ -186,7 +183,6 @@ h4 {
     margin: 10px 0 30px 0;
 }
 .video {
-  /*  background-color: rgb(222, 235, 220);*/
     height: 850px;
     display: flex;
     flex-direction: column ;
@@ -224,13 +220,13 @@ footer {
     font-size: 5%;
   }
 
-  .social-icons .fa-facebook {
+  .social-icons .facebook {
     background-color: #3b5998;
     padding: 8px;
     border-radius: 50%;
   }
 
-   .social-icons .fa-instagram {
+   .social-icons .instagram {
     background-color: #e4405f;
     padding: 8px;
     border-radius: 50%;
