@@ -169,30 +169,30 @@ h4 {
 
 .tvideo {
     font-size:65px;
-    color: #264F31;
+    color: whitesmoke;
     text-align: center;
-    margin: 10px 0 0px 0;
+    margin: 1px 0 0px 0;
     text-decoration:underline;
 
 
 }
 .pvideo {
     font-size: 45px;
-    color: #264F31;
+    color: whitesmoke;
     text-align: center;
-    margin: 10px 0 30px 0;
+    margin: 1px 0 30px 0;
 }
 .video {
-    height: 850px;
+    height: 750px;
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-image: url('/image/back2.png');
+    /*background-image: url('/image/AA.png');*/
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-color: #698971;
   
 }
 .video video {
